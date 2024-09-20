@@ -1,0 +1,33 @@
+.login_section{
+    background: #e7edf4 ;
+    width: 100%;
+   min-height: 100vh;
+   padding-bottom: 70px;
+    
+}
+.login_container{
+   padding-top: 3% !important;
+}
+.login_section_header{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1490196078);
+    position: relative;
+    background: #fff;
+}
+.login_container_col{
+    background: white;
+}
+.login_form button img{
+    max-width:27px;
+    
+}
+.login_form p{
+    font-size: 15px;
+}
+.line span{
+     border: 0.01px solid rgb(219, 219, 219);
+    width:50%;
+     height:0px !important;
+}
+.form-control:focus{
+    box-shadow: none!important;
+}

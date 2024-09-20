@@ -1,0 +1,45 @@
+.card_teamimage_dim {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card_teamimage_dim img {
+    transition: transform 0.3s ease;
+  }
+  
+  .card_teamimage_dim::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(0 0 0 / 42%), rgb(0 0 0 / 44%));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card_teamimage_dim:hover img {
+    transform: scale(1.1);
+    
+  }
+  .card_image_teamdim:hover  {
+    cursor: pointer;
+  }
+  
+  .card_image_teamdim:hover::after {
+    opacity: 1;
+  }
+  .team_section_card{
+    
+  }
+  .team_section_col .card {
+    --bs-card-border-width: 0px!important;
+    --bs-card-border-color: none!important; 
+     --bs-card-border-radius: 0px !important; 
+    --bs-card-box-shadow:none !important;
+     --bs-card-inner-border-radius: 0px!important;
+  }
+
+
+  

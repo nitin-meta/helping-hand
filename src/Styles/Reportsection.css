@@ -1,0 +1,84 @@
+.report_section{
+
+        background-image: url(../assets/report_back.jpg); 
+        background-size: cover;
+        background-position: center center ;
+        background-repeat: no-repeat;
+      
+        background-attachment: fixed;
+        min-height: 100vh;
+        padding-bottom: 80px;
+}
+.report_section .login_section_header{
+        background-color: rgba(255, 255, 255, 0.087);
+        margin-bottom: 100px;
+}
+.report_section_container{
+        background: linear-gradient(-150deg, #04040452 15%, #1f1b1b7d 70%, #2c3644 94%);
+        padding:70px 15px !important;
+         margin: auto 0px;
+         border: 1px solid white;
+         box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.5), 0 0px 5px 0 rgba(255, 255, 255, 0.5);
+         max-width: 80% !important;
+}
+.report_form{
+        background-color: rgba(255, 255, 255, 0.211);
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.8), #000000);
+        background: 
+        radial-gradient(circle at 10% 20%, rgba(131, 127, 126, 0.133) 10%, transparent 70%),
+        radial-gradient(circle at 80% 50%, rgba(255, 255, 255, 0.115) 10%, transparent 70%),
+        radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0.085) 10%, transparent 70%),
+        linear-gradient(to bottom, #0000005c, #00000073);
+        border: 1px solid white;
+        border-radius: 5px;
+        
+}
+@keyframes appear {
+        0% {
+          opacity: 0;
+          transform: scale(0.8) translateY(20px);
+        }
+        50% {
+          opacity: 0.5;
+          transform: scale(1.1) translateY(-10px);
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1) translateY(0);
+        }
+      }
+      
+      .appear {
+        animation: appear 1.2s ease-in-out;
+      }
+      
+      @keyframes slideInFromLeft {
+        0% {
+          opacity: 0;
+          transform: translateX(-100%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      
+      .slide-in-left {
+        animation: slideInFromLeft 1.2s ease-in-out;
+      }
+      
+      @keyframes slideInFromRight {
+        0% {
+          opacity: 0;
+          transform: translateX(100%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      
+      .slide-in-right {
+        animation: slideInFromRight 1.2s ease-in-out;
+      }
+      

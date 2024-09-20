@@ -1,0 +1,242 @@
+/*hero section*/
+.hero_section1 {
+    position: relative;
+    background-image: url(../assets/homebackground4.jpg); 
+    background-size: cover;
+   background-position: right;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 150px;
+ 
+    box-shadow:  0 1px 20px rgba(0, 0, 0, 0.3)
+
+}
+
+.hero_section1 h1{
+    color:white !important;
+    font-size: 3.5rem!important;
+    font-family: "serif" !important;
+    text-shadow: rgb(0 0 0 / 99%) 1px 1px 5px;
+}
+@keyframes slideIn {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .hero_section1 h1,
+  .hero_section1 p,
+  .hero_section1 .order_now {
+    opacity: 0; /* Ensure elements start hidden */
+    animation: slideIn 1s ease-out forwards;
+  }
+  
+  .hero_section1 h1:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  
+  .hero_section1 h1:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  
+  .hero_section1 h1:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  
+  .hero_section1 p:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  
+  .hero_section1 p:nth-child(5) {
+    animation-delay: 1s;
+  }
+  
+  .hero_section1 .order_now {
+    animation-delay: 1.2s;
+  }
+  
+  .hero_section3 {
+    position: relative;
+    background-image: url(../assets/homebackground6.jpg); 
+    background-size: cover;
+   background-position: right;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 150px;
+
+    box-shadow:  0 1px 20px rgba(0, 0, 0, 0.3)
+
+}
+.hero_section3 h1{
+    color:white !important;
+    font-size: 3.5rem!important;
+    font-family: "serif" !important;
+    text-shadow: rgb(0 0 0 / 99%) 1px 1px 5px;
+}
+@keyframes slideIn {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .hero_section3 h1,
+  .hero_section3 p,
+  .hero_section3 .order_now {
+    opacity: 0; /* Ensure elements start hidden */
+    animation: slideIn 1s ease-out forwards;
+  }
+  
+  .hero_section3 h1:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  
+  .hero_section3 h1:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  
+  .hero_section3 h1:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  
+  .hero_section3 p:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  
+  .hero_section3 p:nth-child(5) {
+    animation-delay: 1s;
+  }
+  
+  .hero_section3 .order_now {
+    animation-delay: 1.2s;
+  }
+  
+  .hero_section2{
+    position: relative;
+    background-image: url(../assets/homebackground5.jpg); 
+    background-size: cover;
+   background-position: right;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 150px;
+
+    box-shadow:  0 1px 20px rgba(0, 0, 0, 0.3)
+
+}
+.hero_section2 h1{
+    color:white !important;
+    font-size: 3.5rem!important;
+    font-family: "serif" !important;
+    text-shadow: rgb(0 0 0 / 99%) 1px 1px 5px;
+}
+@keyframes slideIn {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .hero_section2 h1,
+  .hero_section2 p,
+  .hero_section2 .order_now {
+    opacity: 0; /* Ensure elements start hidden */
+    animation: slideIn 1s ease-out forwards;
+  }
+  
+  .hero_section2 h1:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  
+  .hero_section2 h1:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  
+  .hero_section2 h1:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  
+  .hero_section2 p:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  
+  .hero_section2 p:nth-child(5) {
+    animation-delay: 1s;
+  }
+  
+  .hero_section2 .order_now {
+    animation-delay: 1.2s;
+  }
+
+  /* ABout us section */
+  .about_section{
+     padding-top: 60px;
+     padding-bottom: 70px;
+  }
+
+
+  .about_section p,
+  .about_section .learn_more {
+    opacity: 0; /* Ensure elements start hidden */
+    animation: slideIn 1s ease-out forwards;
+  }
+  .about_img{
+    max-width: 450px!important;
+    max-height: 450px!important;
+    filter: contrast(105%);
+  }
+@media (max-width: 768px) {
+  .hero_section1 h1{
+    font-size: 2.1rem!important;
+   }
+   .hero_section2 h1{
+    font-size: 2.1rem!important;
+   }
+   .hero_section3 h1{
+    font-size: 2.1rem!important;
+   }
+}
+@media (max-width: 576px) {
+  .hero_section1::after,
+  .hero_section2::after,
+  .hero_section3::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(to top,#0000007b 5%,transparent);
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  .hero_section1 h1,
+  .hero_section2 h1,
+  .hero_section3 h1,
+  .hero_section1 p,
+  .hero_section2 p,
+  .hero_section3 p,
+  .hero_section1 .order_now,
+  .hero_section2 .order_now,
+  .hero_section3 .order_now {
+    position: relative; /* Ensure that z-index is effective */
+    z-index: 100;
+  }
+  .about_text {
+     font-size: 0.96rem !important;
+  }
+}
